@@ -3,7 +3,7 @@ import "./Name.css";
 function Name() {
   return (
     <div className="NameComponentWrapper">
-      <h1>Olir Eswar</h1>
+      <h1>I'm Olir</h1>
     </div>
   );
 }

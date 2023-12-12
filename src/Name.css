@@ -9,8 +9,9 @@
 }
 
 h1 {
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    font-size: 6em;
+    font-family: "Roboto Mono", monospace;
+    font-size: 96px;
+    font-weight:600;
     color: #ffffff;
     padding-bottom: 5%;
 }
