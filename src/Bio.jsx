@@ -1,0 +1,11 @@
+import "./Bio.css";
+
+function Bio() {
+  return (
+    <div>
+      <h1>Hello</h1>
+    </div>
+  );
+}
+
+export default Bio;
