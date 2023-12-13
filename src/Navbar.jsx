@@ -15,18 +15,18 @@ function Navbar() {
         </li>
         <li>
           <Link
-            className={useLocation().pathname == "/Resume" ? "active" : ""}
-            to="/Resume"
-          >
-            Resume
-          </Link>
-        </li>
-        <li>
-          <Link
             className={useLocation().pathname == "/Projects" ? "active" : ""}
             to="/Projects"
           >
             Projects
+          </Link>
+        </li>
+        <li>
+          <Link
+            className={useLocation().pathname == "/Resume" ? "active" : ""}
+            to="/Resume"
+          >
+            Resume
           </Link>
         </li>
         <li>
