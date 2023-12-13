@@ -3,7 +3,11 @@
     text-align: center;
     min-width: 360px;
     max-height: 500px;
-    box-shadow: -10px 10px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: -10px 10px 4px rgba(0, 0, 0, 0.2), 
+    -120px -60px 0px #D5BDAF, 
+    -120px 20px 0px #D5BDAF, 
+    -60px -60px 0px #D5BDAF, 
+    -60px 20px 0px #D5BDAF;
     border-radius: 15px;
 }
 
