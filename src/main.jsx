@@ -6,6 +6,7 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
+    <div className="left-sibling"></div>
     <div className="main-container">
       <ProfileCard />
       <Bio />
