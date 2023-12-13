@@ -4,6 +4,7 @@ import ProfileCard from "./ProfileCard.jsx";
 import Bio from "./Bio.jsx";
 import "./index.css";
 import Navbar from "./Navbar.jsx";
+import Footer from "./Footer.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

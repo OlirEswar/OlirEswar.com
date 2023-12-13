@@ -1,0 +1,14 @@
+.footer {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    font-size: 16;
+    align-items: center;
+    padding: 8px 1rem;
+    position: fixed;
+    background-color: #FFFFFF;
+    z-index: 1;
+    width: 100%;
+ }
