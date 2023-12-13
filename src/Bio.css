@@ -1,7 +1,15 @@
 .bio {
     font-family: "Roboto Mono", monospace;
     margin: 40px;
-    max-width: 500px;
+    margin-right: 0px; 
+    /* Makes sure profile card and bio are the same space away 
+    from the left and right edges of the page, maybe change this, 
+    not sure which one looks better  */
+    max-width: 500px; 
+    min-width: 470px;
+    /* Makes sure that the main bio text doesn't shift around
+    and change layout when the page gets smaller horizontally,
+    maybe change this to see which one looks better */
 }
 
 .bio h1 {

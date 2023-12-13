@@ -4,7 +4,7 @@ function Bio() {
   return (
     <div className="bio">
       <h1>I'm Olir</h1>
-      <h2>Comp Sci at Vassar</h2>
+      <h2>Engineer In-Training</h2>
       <div className="bio__buttons">
         <button id="project-button">Projects</button>
         <button id="resume-button">Resume</button>
