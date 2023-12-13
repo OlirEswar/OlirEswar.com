@@ -1,3 +1,4 @@
+import { Link, useMatch, useResolvedPath, useLocation } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() {
@@ -5,18 +6,36 @@ function Navbar() {
     <nav className="nav">
       <ul>
         <li>
-          <a className="active" href="/Home">
+          <Link
+            className={useLocation().pathname == "/" ? "active" : ""}
+            to="/"
+          >
             Home
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/Resume">Resume</a>
+          <Link
+            className={useLocation().pathname == "/Resume" ? "active" : ""}
+            to="/Resume"
+          >
+            Resume
+          </Link>
         </li>
         <li>
-          <a href="/Projects">Projects</a>
+          <Link
+            className={useLocation().pathname == "/Projects" ? "active" : ""}
+            to="/Projects"
+          >
+            Projects
+          </Link>
         </li>
         <li>
-          <a href="/Contact">Contact</a>
+          <Link
+            className={useLocation().pathname == "/Contact" ? "active" : ""}
+            to="/Contact"
+          >
+            Contact
+          </Link>
         </li>
       </ul>
     </nav>
