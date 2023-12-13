@@ -32,11 +32,11 @@
 
 #project-button {
     border-color: #0066FF;
-    background-color: #FFFFFF;
+    background-color: #0066FF;
     font-family: "Roboto Mono", monospace;
     font-weight: 600;
     font-size: 20px;
-    color: #0066FF;
+    color: #FFFFFF;
     min-height: 60px;
     min-width: 200px;
     border-radius: 15px;
@@ -45,11 +45,11 @@
 
 #project-button:hover {
     border-color: #0066FF;
-    background-color: #0066FF;
+    background-color: #FFFFFF;
     font-family: "Roboto Mono", monospace;
     font-weight: 600;
     font-size: 20px;
-    color: #FFFFFF;
+    color: #0066FF;
     min-height: 60px;
     min-width: 200px;
     border-radius: 15px;
@@ -71,7 +71,7 @@
 
 #resume-button:hover {
     border-color: #000;
-    background-color: #0066FF;
+    background-color: #aeb1b5;
     font-family: "Roboto Mono", monospace;
     font-weight: 600;
     font-size: 20px;
