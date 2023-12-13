@@ -10,9 +10,10 @@ function Bio() {
         <button id="resume-button">Resume</button>
       </div>
       <p>
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex{" "}
+        Hi! I'm an Engineering/CS student at Dartmouth and Vassar. I'm an
+        aspiring software developer with a passion for turning ideas into
+        products. I'm looking to work on projects in full-stack development,
+        computer hardware, or machine learning.
       </p>
     </div>
   );
