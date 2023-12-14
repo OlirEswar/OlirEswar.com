@@ -37,6 +37,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
             <div className="project-container">
               <h1>Projects</h1>
               <ProjectCard />
+              <ProjectCard />
             </div>
           }
         />
