@@ -3,11 +3,11 @@
     text-align: center;
     min-width: 360px;
     max-height: 500px;
-    box-shadow: -10px 10px 4px rgba(0, 0, 0, 0.2), 
+    box-shadow: 
     -120px -60px 0px #D5BDAF, 
-    -120px 20px 0px #D5BDAF, 
+    -120px 40px 0px #D5BDAF, 
     -60px -60px 0px #D5BDAF, 
-    -60px 20px 0px #D5BDAF;
+    -60px 40px 0px #D5BDAF;
     border-radius: 15px;
 }
 
@@ -23,6 +23,13 @@ hr {
     margin: 5% 40%; 
   }
 
+.profile-card__main {
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    border-top: 2px solid #000;
+    border-radius: 15px 15px 0px 0px;
+}
+
 .profile-card__main img {
     border-radius: 25px;
     margin-top: 10%;
@@ -37,13 +44,18 @@ hr {
 .profile-card__main p {
     font-family: "Roboto Mono", monospace;
     font-weight: 300;
-    margin: 5px;
+    margin: 0;
+    padding: 5px;
 }
 
 .profile-card__footer {
     flex-direction: row;
     background-color: #FFFFFF;
     height: 50px;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    border-radius: 0px 0px 15px 15px;
 }
 
 .profile-card__footer img {

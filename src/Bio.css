@@ -1,6 +1,6 @@
 .bio {
     font-family: "Roboto Mono", monospace;
-    margin: 40px;
+    margin: 60px;
     margin-right: 0px; 
     /* Makes sure profile card and bio are the same space away 
     from the left and right edges of the page, maybe change this, 
@@ -30,7 +30,7 @@
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .10em; /* Adjust as needed */
     animation: 
-      typing 3.5s steps(40, end),
+      typing 3.5s steps(32, end),
       blink-caret .35s step-end infinite;
   }
 

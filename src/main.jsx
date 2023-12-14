@@ -4,7 +4,7 @@ import "./index.css";
 import ProfileCard from "./ProfileCard.jsx";
 import Bio from "./Bio.jsx";
 import Navbar from "./Navbar.jsx";
-import Footer from "./Footer.jsx";
+import ProjectCard from "./ProjectCard.jsx";
 import { BrowserRouter } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
 
@@ -35,7 +35,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           path="/Projects"
           element={
             <div className="main-container">
-              <h1>Projects</h1>
+              <ProjectCard />
             </div>
           }
         />
