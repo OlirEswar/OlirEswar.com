@@ -12,6 +12,11 @@ body {
   overflow: hidden;
  }
 
+ .project-container h1 {
+    margin-top: 0px;
+    padding: 40px;
+ }
+
 /*
 .left-sibling {
   content: '';

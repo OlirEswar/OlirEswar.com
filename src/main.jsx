@@ -11,8 +11,7 @@ import { Route, Routes } from "react-router-dom";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
-      <div className="left-sibling"></div>
-      {/* <Navbar /> */}
+      <Navbar />
       <Routes>
         <Route
           path="/"
@@ -35,8 +34,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           path="/Projects"
           element={
             //<div className="main-container">
-            <ProjectCard />
-            //</div>
+            <div className="project-container">
+              <h1>Projects</h1>
+              <ProjectCard />
+            </div>
           }
         />
         <Route
