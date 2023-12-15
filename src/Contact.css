@@ -1,0 +1,26 @@
+.contact-container {
+    display: flex
+}
+
+.contact-container__info h1 {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 600;
+    font-size: 48px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+
+.contact-container__info h2 {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 30px;
+   
+}
+
+.contact-container__info__email {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
