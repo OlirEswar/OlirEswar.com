@@ -1,6 +1,11 @@
 import "./ProjectCard.css";
 
 function ProjectCard(props) {
+  const handleClick = (e) => {
+    e.preventDefault();
+    window.location.href = props.link;
+  };
+
   const languages = props.languages;
   const languagesList = languages.map((language) => {
     return <p key={language}>{language}</p>;
@@ -13,7 +18,9 @@ function ProjectCard(props) {
           <p>{props.description}</p>
           <div className="languages-used">{languagesList}</div>
           <div className="button-container">
-            <button id="more-info-button">Poster</button>
+            <button onClick={handleClick} id="more-info-button">
+              {props.button_name}
+            </button>{" "}
           </div>
         </div>
         <div className="project-card__image">
