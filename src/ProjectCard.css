@@ -16,7 +16,8 @@
 }
 
 .project-card h1 {
-    /* background-color: #F5EBE0; This might look good if we wanna just remove the color for every other card*/ 
+
+    /* border-radius: 15px; background-color: #F5EBE0; This might look good if we wanna just remove the color for every other card*/ 
 
     padding:  5px 20px;
     text-decoration: none;
@@ -25,6 +26,7 @@
     font-weight: 600;
     border-left: 2px solid #0066FF;
     text-align: start;
+    
 }
 
 .project-card p {
