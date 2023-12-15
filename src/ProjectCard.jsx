@@ -6,7 +6,7 @@ function ProjectCard(props) {
     return <p key={language}>{language}</p>;
   });
   return (
-    <div className="is-odd">
+    <div className={props.isOdd ? "is-odd" : ""}>
       <div className="project-card">
         <div className="project-card__description">
           <h1>{props.title}</h1>

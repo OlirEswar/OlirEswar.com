@@ -39,15 +39,18 @@ ReactDOM.createRoot(document.getElementById("root")).render(
             <div className="project-container">
               <h1>Projects</h1>
               <ProjectCard
+                isOdd={true}
                 title="Cognitive Science Eye-Tracking"
                 description="blah"
                 languages={["blah", "blah2", "blah3"]}
                 image={ursi_poster_img}
               />
               <ProjectCard
+                isOdd={false}
                 title="Cognitive Science Eye-Tracking"
                 description="blah"
                 languages={["blah", "blah2", "blah3"]}
+                image={ursi_poster_img}
               />
             </div>
           }
