@@ -7,6 +7,8 @@ import Navbar from "./Navbar.jsx";
 import ProjectCard from "./ProjectCard.jsx";
 import { BrowserRouter } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
+import Contact from "./Contact.jsx";
+import ursi_poster_img from "/URSI_Poster_Full.png";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -36,8 +38,17 @@ ReactDOM.createRoot(document.getElementById("root")).render(
             //<div className="main-container">
             <div className="project-container">
               <h1>Projects</h1>
-              <ProjectCard />
-              <ProjectCard />
+              <ProjectCard
+                title="Cognitive Science Eye-Tracking"
+                description="blah"
+                languages={["blah", "blah2", "blah3"]}
+                image={ursi_poster_img}
+              />
+              <ProjectCard
+                title="Cognitive Science Eye-Tracking"
+                description="blah"
+                languages={["blah", "blah2", "blah3"]}
+              />
             </div>
           }
         />
@@ -45,7 +56,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           path="/Contact"
           element={
             <div className="main-container">
-              <h1>Contact</h1>
+              <Contact />
             </div>
           }
         />
