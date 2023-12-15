@@ -35,7 +35,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route
           path="/Projects"
           element={
-            //<div className="main-container">
             <div className="project-container">
               <h1>Projects</h1>
               <ProjectCard

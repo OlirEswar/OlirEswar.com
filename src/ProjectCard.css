@@ -12,9 +12,12 @@
 
 .project-card__description {
     max-width: 500px;
+    
 }
 
 .project-card h1 {
+    /* background-color: #F5EBE0; This might look good if we wanna just remove the color for every other card*/ 
+
     padding:  5px 20px;
     text-decoration: none;
     font-family: "Roboto Mono", monospace;
@@ -77,9 +80,9 @@
 .project-card__image {
     text-align: center;
     min-width: 30%;
-    max-width: 50%;
+    max-width: 40%;
     max-height: 600px;
-    margin-left: 6%;
+    margin-left: 8%;
     margin-bottom: 10px;
     box-shadow: -10px -10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
