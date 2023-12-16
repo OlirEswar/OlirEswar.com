@@ -9,11 +9,12 @@ import { BrowserRouter } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
 import Contact from "./Contact.jsx";
 import ursi_poster_img from "/URSI_Poster_Full.png";
+import ContactForm from "./ContactForm.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
-      <Navbar />
+      {<Navbar />}
       <Routes>
         <Route
           path="/"
@@ -66,8 +67,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route
           path="/Contact"
           element={
-            <div className="main-container">
+            <div className="contact-and-form-container">
               <Contact />
+              <ContactForm />
             </div>
           }
         />

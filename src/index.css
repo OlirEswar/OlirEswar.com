@@ -23,6 +23,13 @@ body {
     padding-bottom: 20px;
  }
 
+ .contact-and-form-container {
+  padding-top: 120px;
+  display: flex;
+  justify-content: center;
+  height: 60%;
+ }
+
 /*
 .left-sibling {
   content: '';
