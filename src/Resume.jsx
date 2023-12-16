@@ -1,20 +1,22 @@
 import "./Resume.css";
 
-function Resume() {
+function Resume(props) {
+  console.log(props.bullet_points);
+  const bullet_points = props.bullet_points;
+  const bullet_points_list = bullet_points.map((bullet_point) => {
+    return <li key={bullet_point}>{bullet_point}</li>;
+  });
   return (
-    <div className="resume-component">
-      <h1>Title</h1>
-      <h2>Workplace</h2>
-      <div className="resume-component__secondary-headers">
-        <h2>Location</h2>
-        <h2>Date</h2>
+    <div className={props.is_even ? "is-even" : ""}>
+      <div className="resume-component">
+        <h1>{props.title}</h1>
+        <h2>{props.workplace}</h2>
+        <div className="resume-component__secondary-headers">
+          <h2>{props.location}</h2>
+          <h2>{props.date}</h2>
+        </div>
+        <ul>{bullet_points_list}</ul>
       </div>
-      <ul>
-        <li>Bullet Point 1</li>
-        <li>Bullet Point 2</li>
-        <li>Bullet Point 3</li>
-        <li>Bullet Point 4</li>
-      </ul>
     </div>
   );
 }

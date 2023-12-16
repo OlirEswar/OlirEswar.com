@@ -35,9 +35,43 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           element={
             <div className="resume-container">
               <h1 id="resume-title">Resume</h1>
-              <Resume />
-              <Resume />
-              <Resume />
+              <Resume
+                is_even={false}
+                title="Research Fellow"
+                workplace="Vassar College Cognitive Science Department"
+                location="Poughkeepsie, NY"
+                date="May 2022 - May 2023"
+                bullet_points={[
+                  "Built deep learning neural networks and implemented various machine learning algorithms to predict user screen gaze location using position of eyes and face as input, and decreased error by 12% from initial results",
+                  "Developed VAE model to reduce input face data from 478 vectors to 6, and created animations to visualize error",
+                  "Created back-end of web developer API to allow users to easily implement models on real-time webcam video and allow for frame-by-frame analysis",
+                  "Designed benchmarks in Python to automatically test quality of over 13,500 subject videos used as training data",
+                ]}
+              />
+              <Resume
+                is_even={true}
+                title="Web Development Intern"
+                workplace="Vassar Student Association"
+                location="Poughkeepsie, NY"
+                date="August 2021 - May 2022"
+                bullet_points={[
+                  "Worked with VSA officials and Vassar students to regularly update association website UI, add information about new legislation, and implement new features",
+                  "Created system for digitally archiving committee meeting minutes on website while keeping private information from public view",
+                  "Developed casework system to allow students to anonymously send messages or concerns to available senators through email",
+                ]}
+              />
+              <Resume
+                is_even={false}
+                title="Research Intern"
+                workplace="Brookhaven National Laboratory"
+                location="Upton, NY"
+                date="June 2020 - September 2020"
+                bullet_points={[
+                  "Created CentOS 8 containers in Docker and Singularity for ATLAS and Relativistic Heavy Ion Collider projects",
+                  "Replaced 133 dependencies with new or alternate versions and wrote custom bash scripts to ensure compliance",
+                  "Remotely deployed containers on high power computing cluster using OpenSSH and HTCondor",
+                ]}
+              />
             </div>
           }
         />

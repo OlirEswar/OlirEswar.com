@@ -1,6 +1,11 @@
+
+
 .resume-component{
     min-width: 700px;
-    max-width: 1200px;
+    max-width: 1000px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
 }
 
 .resume-component h1  {
@@ -13,7 +18,7 @@
 .resume-component h2 {
     font-family: "Roboto Mono", monospace;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 0px;
 }
 
