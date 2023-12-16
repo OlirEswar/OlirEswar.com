@@ -40,7 +40,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
               <h1>Projects</h1>
               <ProjectCard
                 isOdd={true}
-                title="Eye-Tracking"
+                title="AI Eye-Tracking for Cognitive Science"
                 description="This project was made for the Undergraduate Research Summer Institute in 2021. 
                 In this project, I worked with 2 other students and a Cognitive Science Professor at Vassar 
                 College to create software that could predict where users were looking at on a screen during
