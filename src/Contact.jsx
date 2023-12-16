@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div className="contact-container">
       <div className="contact-container__info">
-        <h1>Social Media</h1>
+        <h1>Contact Info</h1>
         <h2>Linkedin: Oliravan Eswaramoorthy</h2>
         <h2>Github: OlirEswar</h2>
         <p>
