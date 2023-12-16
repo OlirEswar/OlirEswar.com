@@ -19,6 +19,8 @@ input[type=text] {
     background-color: #F5EBE0;
     width: 100%;
     font-size: 18px;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
 }
 
 input[type=text]:focus {
@@ -67,6 +69,7 @@ textarea {
     border-radius: 10px;
     min-height: 150px;
     font-size: 18px;
+    font-weight: 300;
 }
 
 .contact-form__button {
