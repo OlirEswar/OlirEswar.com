@@ -1,6 +1,7 @@
 .contact-container {
     display: flex;
     margin-right: 60px;
+    max-width: 390px;
 }
 
 .contact-container__info h1 {
@@ -21,4 +22,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.contact-container__info p {
+    margin-top: 80px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 20px;
+    font-weight: 500;
 }
