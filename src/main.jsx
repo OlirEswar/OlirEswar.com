@@ -40,10 +40,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
               <h1>Projects</h1>
               <ProjectCard
                 isOdd={true}
-                title="AI Eye-Tracking for Cognitive Science"
-                description="This project was made for the Undergraduate Research Summer Institute in 2021. 
-                In this project, I worked with 2 other students and a Cognitive Science Professor at Vassar 
-                College to create software that could predict where users were looking at on a screen during
+                title="Eye-Tracking AI for Cognitive Science"
+                description="This project was made for the Undergraduate Research Summer Institute in 2021 
+                in collaboration with Dr. de Leeuw, a Cognitive Science Professor at Vassar College, and
+                2 other students. We created software that could predict where users were looking at on a screen during
                 online cognitive science experiements. We created a neural network incorporating various different
                 deep learning techniques to make a model for our predictions. We also created Javascript software that
                 could collect web cam screenshots at very quick intervals to ensure that we could measure changes
