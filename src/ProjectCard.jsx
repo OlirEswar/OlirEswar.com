@@ -24,7 +24,7 @@ function ProjectCard(props) {
           </div>
         </div>
         <div className="project-card__image">
-          <img src={props.image} alt="URSI Poster" />
+          <img src={props.image} alt="Project Screenshot" />
         </div>
       </div>
     </div>
