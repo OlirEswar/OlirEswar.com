@@ -1,6 +1,6 @@
 import "./ProfileCard.css";
 import olir_eswar_img from "/olir_eswar_small.png";
-import linkedin_logo from "/new-linkedin-logo-white-black-png.png";
+import linkedin_logo from "/github-mark.png";
 import github_mark from "/github-mark.png";
 
 function ProfileCard() {
