@@ -2,14 +2,8 @@
     font-family: "Roboto Mono", monospace;
     margin: 60px;
     margin-right: 0px; 
-    /* Makes sure profile card and bio are the same space away 
-    from the left and right edges of the page, maybe change this, 
-    not sure which one looks better  */
     max-width: 500px; 
     min-width: 470px;
-    /* Makes sure that the main bio text doesn't shift around
-    and change layout when the page gets smaller horizontally,
-    maybe change this to see which one looks better */
 }
 
 .bio h1 {
@@ -24,24 +18,21 @@
     font-size: 33px;
     margin-top: 0px;;
     margin-bottom: 0px;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .10em; /* Adjust as needed */
+    overflow: hidden; 
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    margin: 0 auto;
+    letter-spacing: .10em;
     animation: 
       typing 3.5s steps(32, end),
       blink-caret .35s step-end infinite;
-  }
+}
 
-
-/* The typing effect */
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
 }
 
-/* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange; }

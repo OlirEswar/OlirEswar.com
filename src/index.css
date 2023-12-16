@@ -29,16 +29,3 @@ body {
   justify-content: center;
   height: 60%;
  }
-
-/*
-.left-sibling {
-  content: '';
-  position: absolute;
-  border-radius: 15px;
-  top: 60px;
-  left: 60px;
-  width: 36vw; 
-  height: 80%;
-  background-color: #D5BDAF;
-  z-index: -1;
-} /* Adjust the width based on your preference 

@@ -17,9 +17,6 @@
 }
 
 .project-card h1 {
-
-    /* border-radius: 15px; background-color: #F5EBE0; This might look good if we wanna just remove the color for every other card*/ 
-
     padding:  5px 20px;
     text-decoration: none;
     font-family: "Roboto Mono", monospace;
