@@ -24,7 +24,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           path="/"
           element={
             <div className="main-container">
-              <ProfileCard />
               <Bio />
             </div>
           }
