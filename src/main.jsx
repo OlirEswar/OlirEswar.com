@@ -8,6 +8,7 @@ import ProjectCard from "./ProjectCard.jsx";
 import { BrowserRouter } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
 import Contact from "./Contact.jsx";
+import Resume from "./Resume.jsx";
 import ursi_poster_img from "/URSI_Poster_Full.png";
 import personal_website_img from "/personal_website.png";
 import vsa_website from "/VSA_website.png";
@@ -32,8 +33,11 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route
           path="/Resume"
           element={
-            <div className="main-container">
-              <h1>Resume</h1>
+            <div className="resume-container">
+              <h1 id="resume-title">Resume</h1>
+              <Resume />
+              <Resume />
+              <Resume />
             </div>
           }
         />

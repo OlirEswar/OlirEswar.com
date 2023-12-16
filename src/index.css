@@ -12,6 +12,23 @@ body {
   overflow: hidden;
  }
 
+ .resume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+ }
+
+ #resume-title {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 600;
+  font-size: 48px;
+  text-decoration: underline;
+  margin-top: 0px;
+  padding-top: 80px;
+}
+
  .project-container h1 {
     text-align: center;
     font-family: "Roboto Mono", monospace;

@@ -1,0 +1,32 @@
+.resume-component{
+    min-width: 700px;
+    max-width: 1200px;
+}
+
+.resume-component h1  {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 0px;
+}
+
+.resume-component h2 {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.resume-component__secondary-headers {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.resume-component ul {
+    margin-top: 0px;
+    padding-left: 20px;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    font-size: 16 px;
+}
