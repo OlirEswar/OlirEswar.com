@@ -15,6 +15,7 @@ import vsa_website from "/VSA_website.png";
 import FPGA_conway from "/FPGA_conway.png";
 import HSRP_img from "/HSRP_poster.png";
 import ContactForm from "./ContactForm.jsx";
+import Amethyst_img from "/Amethyst.png";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -109,6 +110,22 @@ ReactDOM.createRoot(document.getElementById("root")).render(
               />
               <ProjectCard
                 isOdd={true}
+                title="Amethyst Productivity Timer"
+                description="I created an Android productivity timer with a friend using Java. We created a pomodoro style 
+                timer where users would set an amount of time to work, and then have the chance to play a short
+                minigame as a reward for sucessfully completing a work session. Users also had the option to
+                track their stats to learn more about their own work habits. We utilized the Agile development framework, 
+                designed unit tests and used PlantUML for documenting our design. This was part of a semester long
+                course completely dedicated to learning about software engineering and best principles. Please take a look at
+                the source code here. Please note that this is a reupload of the repository onto GitHub as it was originally
+                stored on the Vassar College Gitlab server which is no longer available."
+                languages={["Java", "Android", "Agile"]}
+                image={Amethyst_img}
+                button_name="Github"
+                link="https://github.com/OlirEswar/Amethyst"
+              />
+              <ProjectCard
+                isOdd={false}
                 title="FPGA Game of Life"
                 description="I worked with a friend to implement Conway's Game of Life on an FPGA. We used VHDL
                 to program our hardware, so that it would calculate the appropriate state and display the pattern
@@ -120,7 +137,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
               />
 
               <ProjectCard
-                isOdd={false}
+                isOdd={true}
                 title="Vassar Student Association Website"
                 description="I was the web development intern at the Vassar Student Association during my freshman year.
                 I was tasked with updating the website whenever new information, like new legislation, events, or officials
@@ -133,7 +150,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
                 link="https://vsa.vassar.edu/"
               />
               <ProjectCard
-                isOdd={true}
+                isOdd={false}
                 title="Docker Containers for Physics Experiments"
                 description="I worked at the Brookhaven National Lab to create Linux operating system environment container for the
                 Relativistic Heavy Ion Collider project. This was done to ensure that the software controlling the experiments could
