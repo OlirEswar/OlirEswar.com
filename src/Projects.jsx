@@ -154,8 +154,9 @@ function Projects() {
             longDescription={`The was the final project in my Control Theory course at Dartmouth (ENGS 26). I worked in a group of three students to design 
              controller that would prevent a car from hitting walls when it got too close. The car would accelerate until a detecting a wall in front of it, 
              and then decelerate as it got closer until it reached a certain distance from the wall. At this point the car would stop. If the car got too close 
-             to the wall it would move backwards, until it reached the set distance. We  used MATLAB and sisotool to visualize the root locus plot of different 
-             combinations of transfer function poles and zeros, and then designed a controller that had the same transfer function.`}
+             to the wall it would move backwards, until it reached the set distance. We used MATLAB and sisotool to visualize the root locus plot of different 
+             combinations of transfer function poles and zeros, and then designed a controller that had the same transfer function. Please take a look at our
+             final report.`}
             languages={["MATLAB", "Control Theory", "Circuit Design"]}
             link={
               "https://docs.google.com/document/d/1H7vwRuo2ZaXuBcM69Ag7h7HsJpmPKCNUOBIc0THSKWk/edit?usp=sharing"
@@ -173,11 +174,12 @@ function Projects() {
             }
             longDescription={`I worked with a partner to create a prototype Android productivity app. We modeled our application on the pomodoro timer method
             where people set a time periods to work and time periods to take breaks to sustain their productivity. Our app implemented this technique but also
-            added a bejewled styled match-3 minigame that users could play during their breaks. In addition, our app tracked high scores, as well as work and
+            added a bejeweled styled match-3 mini-game that users could play during their breaks. In addition, our app tracked high scores, as well as work and
             break sessions completed. This was part of our Computer Science 203 class at Vassar College where we spent the entire semester developing an independent 
             project. We engaged in agile development practices and documented the project with various use-cases using PlantUML diagrams. In addition, we learned
             best practices for development, such as which which data structures and algorithms to use in particular scenarios, the MVC model, and how to write informative
-            unit tests. `}
+            unit tests. This project was initially hosted on the Vassar College GitLab server, which is no longer available, so we have moved the project to GitHub. Please
+            take a look.`}
             languages={["Java", "Android Studio", "Unit Testing"]}
             link={"https://github.com/OlirEswar/Amethyst"}
             btnText={"Github"}
@@ -193,7 +195,7 @@ function Projects() {
             }
             longDescription={`I created a minimalistic custom version of Linux to learn more about the structure of the operating systems. I used the book
             Linux From Scratch as a guide to learn about the different processes needed to accomplish this goal. After the completion of this minimal system, I created
-            a small C++ calculator for it.`}
+            a small C++ calculator for it. You can click below to see screenshots.`}
             languages={["Linux", "Bash"]}
             link={
               "https://drive.google.com/drive/folders/1udAiW_xowJ-HCKgcZMLWWMkjz8s19nrv?usp=sharing"
