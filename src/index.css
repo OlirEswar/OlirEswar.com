@@ -1,48 +1,67 @@
 body {
+  font-family:'Inter', serif;
+  background-color: #181818;
+}
+
+div {
+  margin: 20px 8px;
+}
+
+.vertically-center-container {
+  max-width: 550px;
+  margin: auto;
+}
+
+h1 {
+  color: #F5F5F5;
+  font-weight: bold;
+  font-size: 32px;
   margin: 0px;
+  margin: 0px 0px 0px 15px;
 }
 
-.main-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 98vh;
-  padding-left: 120px;
-  padding-top: 30px;
-  overflow: hidden;
- }
-
- .resume-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow: hidden;
- }
-
- #resume-title {
-  text-align: center;
-  font-family: "Roboto Mono", monospace;
-  font-weight: 600;
-  font-size: 48px;
-  text-decoration: underline;
-  margin-top: 0px;
-  padding-top: 80px;
+h2 {
+  color: #c4c4c4;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 5px 0px;
+  margin: 0px 0px 0px 15px;
 }
 
- .project-container h1 {
-    text-align: center;
-    font-family: "Roboto Mono", monospace;
-    font-weight: 600;
-    font-size: 48px;
-    text-decoration: underline;
-    margin-top: 0px;
-    padding-top: 80px;
-    padding-bottom: 20px;
- }
+h3 {
+  width: fit-content;
+  color: #F5F5F5;
+  font-weight: bold;
+  margin-top: 5px;
+  padding-bottom: 1px;
+  border-bottom: solid 1px #A485B7;
+  font-size: 16px;
+}
 
- .contact-and-form-container {
-  padding-top: 120px;
-  display: flex;
-  justify-content: center;
-  height: 60%;
- }
+p {
+  color: #c4c4c4;
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+@media (max-width: 450px) {
+    h1 {
+      font-size: 22px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+}
+
+@media (max-width: 385px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+}

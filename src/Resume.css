@@ -1,37 +1,67 @@
-
-
-.resume-component{
-    min-width: 700px;
-    max-width: 1000px;
-    margin-top: 10px;
-    margin-bottom: 40px;
-   
+.resume-container{
+    margin-top: 40px;
+    padding: 0px 20px;
 }
 
-.resume-component h1  {
-    font-family: "Roboto Mono", monospace;
-    font-weight: 600;
-    font-size: 36px;
-    margin-bottom: 0px;
-}
-
-.resume-component h2 {
-    font-family: "Roboto Mono", monospace;
-    font-weight: 600;
-    font-size: 16px;
-    margin-bottom: 0px;
-}
-
-.resume-component__secondary-headers {
+.resume-container__body {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
+    margin: 0px;
 }
 
-.resume-component ul {
-    margin-top: 0px;
-    padding-left: 20px;
-    font-family: "Roboto Mono", monospace;
-    font-weight: 300;
-    font-size: 16 px;
+@media (max-width: 595px) {
+    .resume-container__body {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+}
+
+.resume-container__resume-dates {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+@media (max-width: 595px) {
+    .resume-container__resume-dates {
+        display: flex;
+        flex-direction: row;
+        margin: 0px 0px 20px 0px;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
+
+.inactive {
+    color: #A2A2A2;
+    background-color: #181818;
+    border: none;
+    font-size: 14px;
+    margin-right: 5px;
+    padding: 12px 0px;
+}
+
+.resume-container button:hover {
+    color: #F1DAC4;
+    cursor: pointer;
+}
+
+.active {
+    color: #F1DAC4;
+    background-color: rgba(217, 217, 217, 0.2);
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-right: 5px;
+    padding: 12px 0px;
+}
+
+@media (max-width: 595px) {
+    .active {
+        margin-right: 20px;
+    }
+
+    .inactive {
+        margin-right: 20px;
+    }
 }
