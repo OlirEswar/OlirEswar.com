@@ -1,0 +1,14 @@
+.modal-background {
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+    position: fixed;
+    
+    z-index: 1;
+}
+
+.modal-container {
+    z-index: 1;
+    top: -100px;
+    left: -100px;
+}

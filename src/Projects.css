@@ -1,0 +1,12 @@
+.projects-container {
+    padding: 0px 10px;
+}
+
+.projects-container__list {
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 0.75rem;
+}
+
+

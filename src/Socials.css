@@ -1,0 +1,19 @@
+.socials-container {
+    margin: 50px 0px;
+}
+
+.socials-container p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.socials-container a {
+    font-family: "Inter", serif;
+    color: #F1DAC4;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.socials-container img {
+    width: 20px;
+}
