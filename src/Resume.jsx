@@ -21,8 +21,6 @@ each modeling step`,
     [
       `Collaborated with metallurgists to build full stack app enabling users to override machine settings and record deviations
 from expected results using C, HTMX, PHP, and PostgreSQL`,
-      `Developed VAE model to reduce input 
-    face data from 478 vectors to 6, and created animations to visualize error`,
       `Reduced process time by 2 hours per week by creating dynamic C-based speed control algorithm for coil production line`,
       `Designed web dashboard using SQLite to monitor real-time line speed and downtime, reducing delays by 7%`,
     ],
