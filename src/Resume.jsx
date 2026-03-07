@@ -5,6 +5,17 @@ import ResumeDescription from "./ResumeDescription";
 
 const ResumeDescriptionDatalist = [
   [
+    "Product Management & Analytics Intern",
+    "Capital One",
+    [
+      `Improved short-term prediction accuracy on auto loan loss forecast by 8% by developing model based on delinquency roll
+rates and outstanding balance growth rate`,
+      `Built internal Python tool to allow users to run model on varying input parameters and interact with intermediate outputs at
+each modeling step`,
+      `Created Snowflake SQL pipeline to organize millions of loan records by delinquency and origination month`,
+    ],
+  ],
+  [
     "Software Engineer Intern (Control Systems)",
     "Arconic",
     [
@@ -31,15 +42,6 @@ from expected results using C, HTMX, PHP, and PostgreSQL`,
       `Designed benchmarks in Python to automatically test quality
      of over 13,500 subject videos used as training data
     `,
-    ],
-  ],
-  [
-    "Web Development Intern",
-    "Vassar Student Association",
-    [
-      `Updated student government website with new information about legislation, and designed pages for new clubs`,
-      `Implemented casework system to anonymously route student concerns to most relevant senator via email`,
-      `Improved accessibility by identifying and replacing CSS styles incompatible with screen reading software`,
     ],
   ],
   [
@@ -73,19 +75,19 @@ function Resume() {
             className={activeButton === 0 ? "active" : "inactive"}
             onClick={handleClick(0)}
           >
-            June 2024 - Aug 2024
+            June 2025 - Aug 2025
           </button>
           <button
             className={activeButton === 1 ? "active" : "inactive"}
             onClick={handleClick(1)}
           >
-            May 2022 - May 2023
+            June 2024 - Aug 2024
           </button>
           <button
             className={activeButton === 2 ? "active" : "inactive"}
             onClick={handleClick(2)}
           >
-            Aug 2021 - May 2022
+            May 2022 - May 2023
           </button>
           <button
             className={activeButton === 3 ? "active" : "inactive"}
