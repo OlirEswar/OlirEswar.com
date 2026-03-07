@@ -77,19 +77,19 @@ function Resume() {
           </button>
           <button
             className={activeButton === 1 ? "active" : "inactive"}
-            onClick={handleClick(0)}
+            onClick={handleClick(1)}
           >
             May 2022 - May 2023
           </button>
           <button
             className={activeButton === 2 ? "active" : "inactive"}
-            onClick={handleClick(1)}
+            onClick={handleClick(2)}
           >
             Aug 2021 - May 2022
           </button>
           <button
             className={activeButton === 3 ? "active" : "inactive"}
-            onClick={handleClick(2)}
+            onClick={handleClick(3)}
           >
             June 2020 - Sept 2020
           </button>
