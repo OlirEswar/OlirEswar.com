@@ -19,7 +19,7 @@ function Title() {
     <div className="title-card">
       <img src={olir_eswar_img} alt="My Picture!" />
       <div className="title-card__bio">
-        <h1>I'm Olir Eswar</h1>
+        <h1>Olir Eswar</h1>
         <h2>CS/Engineering Student</h2>
         <button
           onClick={handleClick}

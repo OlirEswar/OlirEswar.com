@@ -8,6 +8,7 @@ import duck_car_img from "/duck-car-img.png";
 import amethyst_img from "/amethyst-img-2.png";
 import amethyst_img_wide from "/amethyst-img.png";
 import custom_linux_img from "/custom-linux-img.png";
+import hunter_ai_img from "/HunterAI.png";
 
 import ProjectExample from "./ProjectExample";
 import ProjectFullExample from "./ProjectFullExample";
@@ -39,6 +40,31 @@ function Projects() {
         />
       ) : (
         <div className="projects-container__list">
+          <ProjectExample
+            title={"Hunter.AI"}
+            image={hunter_ai_img}
+            altText={"Healtcare Hunter Website"}
+            description={
+              "Built full-stack healthcare recruting platform in cooperation with Hunter.AI (YC F24) "
+            }
+            longDescription={`As part of my engineering capstone project at Dartmouth College, I worked with Hunter.AI, a MiraclePlus (formerly YC China) startup,
+              to create a smart recruiting platform for blue collar jobs in the healthcare industry. Hunter.AI's primary product is an AI recruting agent for 
+              delivery driver jobs in China. My team's task involved finding a similar market in the US and building a prototype for a potential product. Over the
+              course of two terms, we researched various blue-collar industries, conducted user interviews, and built software products to identify possible
+              areas with product-market fit. Eventually, we settled on the healthcare industry, and we developed a recruiting platform that intelligently matches
+              candidates to jobs, instead of forcing candidates and businesses to manually apply and review each application. I was the primary web developer for this
+              project. I utilized Next.js and React for the frontend and Supabase for our database and backend. Overall, I learned about how to architect a project from
+              the ground up and developed a strong workflow for rapid prototyping and iteration.`}
+            languages={["Next.js", "React", "Supabase"]}
+            link={
+              "https://engs-90-hunter-ai-7jed.vercel.app/"
+            }
+            btnText={"View Live Site"}
+            showFullExample={setShowFullExample}
+            fullExampleDetails={setFullExampleDetails}
+          />
+
+
           <ProjectExample
             title={"Eye-tracking AI"}
             image={ursi_logo}
