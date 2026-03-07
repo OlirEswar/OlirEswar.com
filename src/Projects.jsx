@@ -9,6 +9,7 @@ import amethyst_img from "/amethyst-img-2.png";
 import amethyst_img_wide from "/amethyst-img.png";
 import custom_linux_img from "/custom-linux-img.png";
 import hunter_ai_img from "/HunterAI.png";
+import datago_img from "/Datago.png";
 
 import ProjectExample from "./ProjectExample";
 import ProjectFullExample from "./ProjectFullExample";
@@ -60,6 +61,28 @@ function Projects() {
               "https://engs-90-hunter-ai-7jed.vercel.app/"
             }
             btnText={"View Live Site"}
+            showFullExample={setShowFullExample}
+            fullExampleDetails={setFullExampleDetails}
+          />
+          <ProjectExample
+            title={"DataGo"}
+            image={datago_img}
+            altText={"DataGo Project"}
+            description={
+              "Created machine learning model capable of playing Go and beating Google's AlphaGo"
+            }
+            longDescription={`I worked in a team of six to create a machine learning algorithm capable of playing Go at a 
+              high level for my Game Theory (ENGS 102) final project at Dartmouth. We used a similar approach to Google's 
+              AlphaGo model for our model architecture and training. In addition, we also implemented a RAG database which
+              would cache significant trainig results to save processing time in real games. Then, we allowed our model to
+              call upon these cached results if the Go position was above a particular threshold level of entropy. Overall,
+              we were able to create a model that consistently beat Google's AlphaGo model. We hope to formalize and consolidate
+              our results to write a paper regarding the results.`}
+            languages={["Python", "Machine Learning"]}
+            link={
+              ""
+            }
+            btnText={""}
             showFullExample={setShowFullExample}
             fullExampleDetails={setFullExampleDetails}
           />
