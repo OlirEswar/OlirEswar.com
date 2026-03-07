@@ -73,16 +73,22 @@ function Resume() {
             className={activeButton === 0 ? "active" : "inactive"}
             onClick={handleClick(0)}
           >
-            May 2022 - May 2023
+            June 2024 - Aug 2024
           </button>
           <button
             className={activeButton === 1 ? "active" : "inactive"}
+            onClick={handleClick(0)}
+          >
+            May 2022 - May 2023
+          </button>
+          <button
+            className={activeButton === 2 ? "active" : "inactive"}
             onClick={handleClick(1)}
           >
             Aug 2021 - May 2022
           </button>
           <button
-            className={activeButton === 2 ? "active" : "inactive"}
+            className={activeButton === 3 ? "active" : "inactive"}
             onClick={handleClick(2)}
           >
             June 2020 - Sept 2020
