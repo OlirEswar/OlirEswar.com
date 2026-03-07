@@ -63,8 +63,47 @@ function Projects() {
             showFullExample={setShowFullExample}
             fullExampleDetails={setFullExampleDetails}
           />
-
-
+          <ProjectExample
+            title={"Duck Car"}
+            image={duck_car_img}
+            altText={"Duck Car"}
+            description={
+              "Designed PD controller for a 'Duck Car' so that it moved in sync with surfaces in front of it, stopping and reversing if it got too close"
+            }
+            longDescription={`The was the final project in my Control Theory course at Dartmouth (ENGS 26). I worked in a group of three students to design 
+             controller that would prevent a car from hitting walls when it got too close. The car would accelerate until a detecting a wall in front of it, 
+             and then decelerate as it got closer until it reached a certain distance from the wall. At this point the car would stop. If the car got too close 
+             to the wall it would move backwards, until it reached the set distance. We used MATLAB and sisotool to visualize the root locus plot of different 
+             combinations of transfer function poles and zeros, and then designed a controller that had the same transfer function. Please take a look at our
+             final report.`}
+            languages={["MATLAB", "Control Theory", "Circuit Design"]}
+            link={
+              "https://docs.google.com/document/d/1H7vwRuo2ZaXuBcM69Ag7h7HsJpmPKCNUOBIc0THSKWk/edit?usp=sharing"
+            }
+            btnText={"View Report"}
+            showFullExample={setShowFullExample}
+            fullExampleDetails={setFullExampleDetails}
+          />
+          <ProjectExample
+            title={"FPGA Game of Life"}
+            image={fpga_gol_img}
+            altText={"FPGA Game of Life"}
+            description={
+              "Programmed Conway's Game of Life on Xilinx FPGA and displayed output on VGA monitor"
+            }
+            longDescription={`I worked with a partner to create an FPGA version of Conway’s Game of Life, a famous cellular automation. We had used an VGA output to display the results on a computer monitor.
+             We allowed users to place different initial states using buttons on the FPGA, and then allowed the simulation to run and update until the user reset it. 
+             We first designed RTL diagrams and state machines by hand to determine what type of logic blocks we would need. We then used Xilinx Vivado to write the 
+             VHDL needed to implement our design. Some challenges included making sure that the timing for game logic aligned with the timing for the VGA screen updates, 
+             so that the state of the cells updated appropriately. Please take a look at the report we created for this project. `}
+            languages={["VHDL", "RTL", "Vivado"]}
+            link={
+              "https://docs.google.com/document/d/1kq-LjcpFeQm685vYGR9cs0rdG2z08dQHtxCyPksfAkI/"
+            }
+            btnText={"View Report"}
+            showFullExample={setShowFullExample}
+            fullExampleDetails={setFullExampleDetails}
+          />
           <ProjectExample
             title={"Eye-tracking AI"}
             image={ursi_logo}
@@ -150,47 +189,8 @@ function Projects() {
             showFullExample={setShowFullExample}
             fullExampleDetails={setFullExampleDetails}
           />
-          <ProjectExample
-            title={"FPGA Game of Life"}
-            image={fpga_gol_img}
-            altText={"FPGA Game of Life"}
-            description={
-              "Programmed Conway's Game of Life on Xilinx FPGA and displayed output on VGA monitor"
-            }
-            longDescription={`I worked with a partner to create an FPGA version of Conway’s Game of Life, a famous cellular automation. We had used an VGA output to display the results on a computer monitor.
-             We allowed users to place different initial states using buttons on the FPGA, and then allowed the simulation to run and update until the user reset it. 
-             We first designed RTL diagrams and state machines by hand to determine what type of logic blocks we would need. We then used Xilinx Vivado to write the 
-             VHDL needed to implement our design. Some challenges included making sure that the timing for game logic aligned with the timing for the VGA screen updates, 
-             so that the state of the cells updated appropriately. Please take a look at the report we created for this project. `}
-            languages={["VHDL", "RTL", "Vivado"]}
-            link={
-              "https://docs.google.com/document/d/1kq-LjcpFeQm685vYGR9cs0rdG2z08dQHtxCyPksfAkI/"
-            }
-            btnText={"View Report"}
-            showFullExample={setShowFullExample}
-            fullExampleDetails={setFullExampleDetails}
-          />
-          <ProjectExample
-            title={"Duck Car"}
-            image={duck_car_img}
-            altText={"Duck Car"}
-            description={
-              "Designed PD controller for a 'Duck Car' so that it moved in sync with surfaces in front of it, stopping and reversing if it got too close"
-            }
-            longDescription={`The was the final project in my Control Theory course at Dartmouth (ENGS 26). I worked in a group of three students to design 
-             controller that would prevent a car from hitting walls when it got too close. The car would accelerate until a detecting a wall in front of it, 
-             and then decelerate as it got closer until it reached a certain distance from the wall. At this point the car would stop. If the car got too close 
-             to the wall it would move backwards, until it reached the set distance. We used MATLAB and sisotool to visualize the root locus plot of different 
-             combinations of transfer function poles and zeros, and then designed a controller that had the same transfer function. Please take a look at our
-             final report.`}
-            languages={["MATLAB", "Control Theory", "Circuit Design"]}
-            link={
-              "https://docs.google.com/document/d/1H7vwRuo2ZaXuBcM69Ag7h7HsJpmPKCNUOBIc0THSKWk/edit?usp=sharing"
-            }
-            btnText={"View Report"}
-            showFullExample={setShowFullExample}
-            fullExampleDetails={setFullExampleDetails}
-          />
+          
+          
           <ProjectExample
             title={"Amethyst Productivity Timer"}
             image={screen.width > 505 ? amethyst_img : amethyst_img_wide}
